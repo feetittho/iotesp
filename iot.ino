@@ -9,7 +9,7 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
-char auth[] = BLYNK_AUTH_TOKEN;
+
 
 char ssid[] = "GRANADA";
 char pass[] = "";
