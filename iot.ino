@@ -49,7 +49,7 @@ void mew() {  // cat mew
   playTone(5100,40);
 }
 
-void ruff() {   // dog ruff
+void ruff() {   // dog ruff bunyi dog 1
   uint16_t i;
   for(i=890; i<910; i+=2)
      playTone(i,3);
@@ -57,7 +57,7 @@ void ruff() {   // dog ruff
   playTone(12200,70);
 }
 
-void arf() {    // dog arf
+void arf() {    // dog arf bunyi dog 2
   uint16_t i;
   playTone(890,25);
   for(i=890; i<910; i+=2)
