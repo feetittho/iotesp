@@ -35,12 +35,12 @@ void meow2() {
   uint16_t i;
   playTone(5100,55);
   playTone(394,170);
-  delay(30);
+  delay(3000);
   for(i=330; i<360; i+=2)
      playTone(i,10);
   playTone(5100,40);
 }
-
+//delay3000
 void mew() {  // cat mew
   uint16_t i;
   playTone(5100,55);
