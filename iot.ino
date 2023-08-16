@@ -49,7 +49,7 @@ void mew() {  // cat mew
   playTone(5100,40);
 }
 
-void ruff() {   // dog ruff
+void ruff() {   // dog ruff test
   uint16_t i;
   for(i=890; i<910; i+=2)
      playTone(i,3);
